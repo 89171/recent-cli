@@ -1,6 +1,8 @@
 # recent
 Manage your workspaces
 
+![Demo](https://cdn.jsdelivr.net/gh/zhujm/myfiles@master/images/7f353804-0dd3-47b9-8ca3-ab09a3012253.gif)
+
 ### Install
 ```bash
 npm install -g recent-cli
