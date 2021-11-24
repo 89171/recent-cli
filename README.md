@@ -1,16 +1,17 @@
 # recent
 Manage your workspaces
 
-#### Install
+### Install
 ```bash
 npm install -g recent-cli
 ```
 
-#### Add code command
+### Add code command
 Use the shortcut key Command/ + shift + P in VS Code to open the command panel
+
 ![Add code command](https://cdn.jsdelivr.net/gh/zhujm/myfiles@master/images/image-20211123190136479.png)
 
-#### Useage
+### Useage
 recent can be abbreviated as: r
 - `recent` Open the workspaces interactively in recent
 - `recent add dirname` add workspace
@@ -20,7 +21,7 @@ recent can be abbreviated as: r
 - `recent xxx` match and open the workspace according to the input
 
 
-#### Example：
+### Example：
 ```bash
 # Add current directory
 r add . 

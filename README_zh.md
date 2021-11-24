@@ -1,15 +1,15 @@
 # recent
 工作区管理工具
-#### 安装
+### 安装
 ```bash
 npm install -g recent-cli
 ```
 
-#### 添加code命令
+### 添加code命令
 在VS Code中使用快捷键 Command/ + shift + P 打开命令行面板
 ![添加code命令](https://cdn.jsdelivr.net/gh/zhujm/myfiles@master/images/image-20211123190136479.png)
 
-#### 使用
+### 使用
 recent可以简写为: r：
 - `recent` 交互方式打开工作区
 - `recent add dirname` 添加工作区
@@ -18,7 +18,7 @@ recent可以简写为: r：
 - `recent ls xxx` 根据输入的内容筛选工作区
 - `recent xxx` 根据输入内容进行匹配并打开
 
-使用示例：
+### 使用示例：
 ```bash
 # 添加当前目录到工作区
 r add . 

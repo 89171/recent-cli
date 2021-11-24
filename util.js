@@ -14,7 +14,6 @@ const getOption = (option) => {
 }
 
 const mkdirp = function(dir) {
-    console.log(dir)
     if(!existsSync(dir)){
         mkdirp(path.dirname(dir))
         mkdirSync(dir)
