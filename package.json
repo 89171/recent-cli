@@ -1,0 +1,25 @@
+{
+  "name": "recent-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "r": "./src/recent.js",
+    "recent": "./src/recent.js"
+  },
+  "keywords": [
+    "r",
+    "recent",
+    "recently",
+    "workspace"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-spawn": "^7.0.3",
+    "inquirer": "^8.2.0"
+  }
+}
