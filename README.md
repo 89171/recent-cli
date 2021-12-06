@@ -1,38 +1,36 @@
 # recent
-Manage your workspaces
+工作区管理工具
 
 ![Demo](https://cdn.jsdelivr.net/gh/zhujm/myfiles@master/images/7f353804-0dd3-47b9-8ca3-ab09a3012253.gif)
 
-### Install
+### 安装
 ```bash
 npm install -g recent-cli
 ```
 
-### Add code command
-Use the shortcut key Command/ + shift + P in VS Code to open the command panel
+### 添加code命令
+在VS Code中使用快捷键 Command/ + shift + P 打开命令行面板
+![添加code命令](https://cdn.jsdelivr.net/gh/zhujm/myfiles@master/images/image-20211123190136479.png)
 
-![Add code command](https://cdn.jsdelivr.net/gh/zhujm/myfiles@master/images/image-20211123190136479.png)
+### 使用
+recent可以简写为: r：
+- `recent` 交互方式打开工作区
+- `recent add dirname` 添加工作区
+- `recent del dirname` 删除工作区
+- `recent ls` 查看已添加的所有工作区
+- `recent ls xxx` 根据输入的内容筛选工作区
+- `recent xxx` 根据输入内容进行匹配并打开
 
-### Useage
-recent can be abbreviated as: r
-- `recent` Open the workspaces interactively in recent
-- `recent add dirname` add workspace
-- `recent del dirname` delete workspace
-- `recent ls` view all the added workspaces
-- `recent ls xxx` filter the workspace
-- `recent xxx` match and open the workspace according to the input
-
-
-### Example：
+### 使用示例：
 ```bash
-# Add current directory
+# 添加当前目录到工作区
 r add . 
-# Delete workspace
+# 删除工作区
 r del /User/aaa
-# View all workspaces
+# 查看所有工作区
 r ls
-# View the workspace path containing the string `recent-cli`
+# 查看包含字符串`recent-cli`的工作区路径
 r ls recent-cli
-# Use VS Code to open the workspace containing `recent-cli`
+# 使用VS Code打开包含`recent-cli`的工作区
 r recent-cli
 ```
