@@ -1,7 +1,7 @@
 # recent
 工作区管理工具
 
-![Demo](https://cdn.jsdelivr.net/gh/zhujm/myfiles@master/images/7f353804-0dd3-47b9-8ca3-ab09a3012253.gif)
+![recent-demo](https://cdn.jsdelivr.net/gh/zhujm/myfiles@master/images/recent-demo.gif)
 
 ### 安装
 ```bash
