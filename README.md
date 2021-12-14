@@ -9,8 +9,11 @@ npm install -g recent-cli
 ```
 
 ### 添加code命令
-在VS Code中使用快捷键 Command/ + shift + P 打开命令行面板
+在VS Code中使用快捷键 Command/ + shift + P 打开命令行面板，添加code命令
+
 ![添加code命令](https://cdn.jsdelivr.net/gh/zhujm/myfiles@master/images/image-20211123190136479.png)
+
+> 添加完成后可以在命令行中通过code命令直接打开VS Code
 
 ### 使用
 recent可以简写为: r：
@@ -34,3 +37,5 @@ r ls recent-cli
 # 使用VS Code打开包含`recent-cli`的工作区
 r recent-cli
 ```
+
+> 其他：[推荐一个工作区管理小工具](https://juejin.cn/post/7034082152635432967)
