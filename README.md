@@ -1,7 +1,11 @@
 # recent
 工作区管理工具
+- 记录工作区目录
+- 直接通过VS Code打开工作区
+- 快捷切换Terminal工作目录
 
 ![recent-demo](https://cdn.jsdelivr.net/gh/zhujm/myfiles@master/images/recent-demo.gif)
+
 
 ### 安装
 ```bash
@@ -38,4 +42,15 @@ r ls recent-cli
 r recent-cli
 ```
 
-> 其他：[推荐一个工作区管理小工具](https://juejin.cn/post/7034082152635432967)
+### 使用recent输出结果
+
+**VS Code打开工作区并切换当前terminal工作目录**
+```bash
+cd `r cyp`
+```
+其中`cyp`为模糊匹配的工作区`cypress`，recent会通过VS Code打开工作区并打印工作区目录，cd命令获取打印结果作为参数切换当前terminal工作目录为工作区
+
+**切换当前terminal工作目录为匹配工作区**
+```bash
+cd `r ls cyp`
+```
