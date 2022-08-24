@@ -1,6 +1,6 @@
 {
   "name": "recent-cli",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "Manage your workspace",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
